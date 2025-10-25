@@ -10,7 +10,7 @@ function Hero(){
         <Fragment>
 <div className={styleHero.Hero}></div>
 <div className='position-relative'>
-    <img src={imghero} className='position-absolute'></img>
+    <img src={imghero} className='position-absolute mt-5'></img>
     <h1 className='position-absolute'>START BOOTSTRAP</h1>
     <p className='position-absolute'>Graphic Artist - Web Designer - Illustrator</p>
           

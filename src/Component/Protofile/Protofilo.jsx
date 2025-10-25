@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import style from './Protofilo.module.css';
+import styleproto from './Protofilo.module.css';
 import imgcbin from './../../assets/cabin.png';
 import imgcake from './../../assets/cake.png';
 import imgcircus from './../../assets/circus.png';
@@ -12,7 +12,7 @@ function Proto(){
 
     return (
 <Fragment>
-    <h2 className=" text-center">PROTOFOLIO</h2>
+    <h2 className={`${styleproto.h2claa} text-center`} >PROTOFOLIO</h2>
     <div className="">
         <div className="container">
             <div className="row">

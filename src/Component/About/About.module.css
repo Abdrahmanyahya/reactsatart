@@ -1,0 +1,25 @@
+.about{
+margin-top:80px ;
+    height: 100vh;
+    background-color: #1abc9c;
+}
+
+.h2about{
+    font-size: 50px;
+}
+
+.pabout{
+    font-size: 19px;
+}
+.btn{
+    margin-left: 500px;
+    
+}
+.abtn{
+    color: #FFF;
+}
+.btn:hover a{
+    
+    color: black;
+    
+}
