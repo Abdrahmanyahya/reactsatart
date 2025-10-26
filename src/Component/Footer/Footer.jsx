@@ -1,5 +1,5 @@
-import { Fragment } from "react"
-import stylefoo from './footer.module.css';
+import { Fragment } from "react";
+import stylefoo from './Footer.module.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Footer(){
