@@ -1,0 +1,25 @@
+.footback{
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 70px;
+}
+
+.btnFoot{
+    border-radius: 50%;
+}
+
+.spancolor{
+    color: #1abc98;
+}
+.divcopy{
+     background-color:#1a252f ;
+    width: 99%;
+    
+}
+.spancoppy{
+    color: #edffff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;   
+}

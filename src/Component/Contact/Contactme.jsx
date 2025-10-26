@@ -10,8 +10,8 @@ return (
 
 
 <form className="p-5">
-  <div className={`mb-3 `}>
-    <input type="text" className= {`${stylecon.name} w-75 p-3 border-0 border-bottom`} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name"></input>
+  <div className={`mb-3`}>
+    <input type="text" className= {` w-75 p-3 border-0 border-bottom`} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name"></input>
   </div>
 
 
