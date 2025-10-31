@@ -5,6 +5,8 @@ import Proto from "./Component/Protofile/Protofilo.jsx";
 import About from './Component/About/About.jsx';
 import Contact from "./Component/Contact/Contactme.jsx";
 import Footer from "./Component/Footer/Footer.jsx";
+import { Route, Router, Routes } from "react-router-dom";
+import Home from "./Component/Home/Home.jsx";
 
 function App(){
 
@@ -13,10 +15,14 @@ function App(){
   return (
 <Fragment>
   <Navbar></Navbar>
-  <Hero></Hero>
-  <Proto></Proto>
-  <About></About>
-  <Contact></Contact>
+  <Routes>
+   <Route path="/" element={<Home/>}></Route>
+   <Route path="Proto" element={  <Proto></Proto>}></Route>
+   <Route path="about" element={  <About></About>}></Route>
+   <Route path="contact" element={  <Contact></Contact>}></Route>
+  </Routes>
+
+
   <Footer></Footer>
 </Fragment>
   )

@@ -6,7 +6,7 @@ function Contact(){
 return (
 
 <Fragment>
-<h2 className={`${stylecon.h2con} text-center p-5`}>CONTACT ME</h2>
+<h2 className={`${stylecon.h2con} text-center p-5 mt-5`}>CONTACT ME</h2>
 
 
 <form className="p-5">

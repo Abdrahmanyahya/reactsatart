@@ -12,8 +12,8 @@ function Proto(){
 
     return (
 <Fragment>
-    <h2 className={`${styleproto.h2claa} text-center`} >PROTOFOLIO</h2>
-    <div className="">
+    <h2 className={`${styleproto.h2claa} text-center mt-5`} >PROTOFOLIO</h2>
+    <div className="mb-5">
         <div className="container">
             <div className="row">
                 <div className="col-md-4 mb-3">
